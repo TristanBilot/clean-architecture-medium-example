@@ -10,15 +10,15 @@ protocol MoviesByCategoryErrorPresentable {
 }
 
 class MoviesByCategoryErrorPresenter: MoviesByCategoryErrorPresentable {
-  private weak var view: MoviesByCategoryViewDelegate!
+  private weak var view: MoviesByCategoryErrorViewDelegate!
   
   init(
-    view: MoviesByCategoryViewDelegate
+    view: MoviesByCategoryErrorViewDelegate
   ) {
     self.view = view
   }
   
   func present(error: String) {
-    
+    view.showMoviesByCategoryError(error: error)
   }
 }

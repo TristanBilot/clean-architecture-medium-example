@@ -8,10 +8,10 @@
 import UIKit
 
 class MoviesByCategoryViewController: UIViewController {
-  private var didSelectCategoryController: DidSelectCategoryController!
+  private var didSelectCategoryController: DidSelectControllable!
   
   func initDependencies(
-    didSelectCategoryController: DidSelectCategoryController
+    didSelectCategoryController: DidSelectControllable
   ) {
     self.didSelectCategoryController = didSelectCategoryController
   }

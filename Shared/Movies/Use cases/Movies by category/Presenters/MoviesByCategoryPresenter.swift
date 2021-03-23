@@ -19,6 +19,7 @@ class MoviesByCategoryPresenter: MoviesByCategoryPresentable {
   }
   
   func present(movies: [Movie], forCategory category: Category) {
-    
+    let sortedMovies = movies.sorted(by: { $0.name < $1.name })
+    view.showMoviesByCategory(movies: sortedMovies, forCategory: category)
   }
 }
