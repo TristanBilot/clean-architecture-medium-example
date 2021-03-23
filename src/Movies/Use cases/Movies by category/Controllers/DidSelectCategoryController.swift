@@ -5,7 +5,7 @@
 //  Created by BILOT Tristan on 23/03/2021.
 //
 
-class DidSelectCategoryController: DidSelectControllable {
+class DidSelectCategoryController: DidSelectCategoryControllable {
   private let fetcher: MoviesByCategoryFetching
   
   init(
@@ -14,7 +14,7 @@ class DidSelectCategoryController: DidSelectControllable {
     self.fetcher = fetcher
   }
   
-  func didSelect() {
-    
+  func didSelect(category: Category) {
+    fetcher.fetch(category: category)
   }
 }

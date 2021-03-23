@@ -8,23 +8,30 @@
 import UIKit
 
 class MoviesByCategoryViewController: UIViewController {
-  private var didSelectCategoryController: DidSelectControllable!
+  private var didSelectCategoryController: DidSelectCategoryControllable!
+  private var movies: [Movie]?
+  private var selectedCategory: Category?
   
   func initDependencies(
-    didSelectCategoryController: DidSelectControllable
+    didSelectCategoryController: DidSelectCategoryControllable
   ) {
     self.didSelectCategoryController = didSelectCategoryController
+  }
+  
+  @IBAction func onCategoryTapped(_ sender: CategoryButton!) {
+    didSelectCategoryController.didSelect(category: sender.category)
   }
 }
 
 extension MoviesByCategoryViewController: MoviesByCategoryViewDelegate {
   func showMoviesByCategory(movies: [Movie], forCategory category: Category) {
-    <#code#>
+    self.movies = movies
+    self.selectedCategory = category
   }
 }
 
 extension MoviesByCategoryViewController: MoviesByCategoryErrorViewDelegate {
   func showMoviesByCategoryError(error: String) {
-    
+    /* handle error properly */
   }
 }
