@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CA16A0A2609D98800EA68C2 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA16A092609D98800EA68C2 /* Tests_iOS.swift */; };
 		3CA16A172609D98800EA68C2 /* MoviesByCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA169EE2609D98500EA68C2 /* MoviesByCategoryViewController.swift */; };
 		3CA16A3B2609DC0F00EA68C2 /* DidSelectCategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA16A3A2609DC0F00EA68C2 /* DidSelectCategoryController.swift */; };
 		3CA16A452609DC2F00EA68C2 /* DidSelectCategoryControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA16A442609DC2F00EA68C2 /* DidSelectCategoryControllable.swift */; };
@@ -50,12 +49,6 @@
 
 /* Begin PBXFileReference section */
 		3CA169EE2609D98500EA68C2 /* MoviesByCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesByCategoryViewController.swift; sourceTree = "<group>"; };
-		3CA169F52609D98800EA68C2 /* clean-archi-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clean-archi-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CA169FD2609D98800EA68C2 /* clean-archi-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clean-archi-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CA16A052609D98800EA68C2 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CA16A092609D98800EA68C2 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		3CA16A0B2609D98800EA68C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CA16A102609D98800EA68C2 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA16A3A2609DC0F00EA68C2 /* DidSelectCategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DidSelectCategoryController.swift; sourceTree = "<group>"; };
 		3CA16A442609DC2F00EA68C2 /* DidSelectCategoryControllable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DidSelectCategoryControllable.swift; sourceTree = "<group>"; };
 		3CA16A4A2609DCA900EA68C2 /* MoviesByCategoryFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesByCategoryFetching.swift; sourceTree = "<group>"; };
@@ -76,6 +69,10 @@
 		3CA16ADE2609F15B00EA68C2 /* MoviesGatewayFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesGatewayFactory.swift; sourceTree = "<group>"; };
 		3CA16AE82609F25800EA68C2 /* MoviesByCategoryFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesByCategoryFactory.swift; sourceTree = "<group>"; };
 		3CA16AFF2609F6D400EA68C2 /* CategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButton.swift; sourceTree = "<group>"; };
+		3CA16B252609FC0500EA68C2 /* clean-archi-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clean-archi-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA16B262609FC0500EA68C2 /* clean-archi-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clean-archi-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA16B272609FC0500EA68C2 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA16B282609FC0500EA68C2 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +111,10 @@
 			isa = PBXGroup;
 			children = (
 				3CA169ED2609D98500EA68C2 /* src */,
-				3CA16A082609D98800EA68C2 /* Tests iOS */,
-				3CA169F62609D98800EA68C2 /* Products */,
+				3CA16B252609FC0500EA68C2 /* clean-archi-example.app */,
+				3CA16B262609FC0500EA68C2 /* clean-archi-example.app */,
+				3CA16B272609FC0500EA68C2 /* Tests iOS.xctest */,
+				3CA16B282609FC0500EA68C2 /* Tests macOS.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,26 +125,6 @@
 				3CA16A5D2609DD7E00EA68C2 /* Movies */,
 			);
 			path = src;
-			sourceTree = "<group>";
-		};
-		3CA169F62609D98800EA68C2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3CA169F52609D98800EA68C2 /* clean-archi-example.app */,
-				3CA169FD2609D98800EA68C2 /* clean-archi-example.app */,
-				3CA16A052609D98800EA68C2 /* Tests iOS.xctest */,
-				3CA16A102609D98800EA68C2 /* Tests macOS.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3CA16A082609D98800EA68C2 /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3CA16A092609D98800EA68C2 /* Tests_iOS.swift */,
-				3CA16A0B2609D98800EA68C2 /* Info.plist */,
-			);
-			path = "Tests iOS";
 			sourceTree = "<group>";
 		};
 		3CA16A372609DB1200EA68C2 /* Movies by category */ = {
@@ -201,9 +180,9 @@
 		3CA16A5D2609DD7E00EA68C2 /* Movies */ = {
 			isa = PBXGroup;
 			children = (
+				3CA16A5B2609DD5C00EA68C2 /* Gateway */,
 				3CA16A6F2609DED700EA68C2 /* Model */,
 				3CA16A6E2609DECD00EA68C2 /* Use cases */,
-				3CA16A5B2609DD5C00EA68C2 /* Gateway */,
 			);
 			path = Movies;
 			sourceTree = "<group>";
@@ -288,7 +267,7 @@
 			);
 			name = "clean-archi-example (iOS)";
 			productName = "clean-archi-example (iOS)";
-			productReference = 3CA169F52609D98800EA68C2 /* clean-archi-example.app */;
+			productReference = 3CA16B252609FC0500EA68C2 /* clean-archi-example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3CA169FC2609D98800EA68C2 /* clean-archi-example (macOS) */ = {
@@ -305,7 +284,7 @@
 			);
 			name = "clean-archi-example (macOS)";
 			productName = "clean-archi-example (macOS)";
-			productReference = 3CA169FD2609D98800EA68C2 /* clean-archi-example.app */;
+			productReference = 3CA16B262609FC0500EA68C2 /* clean-archi-example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3CA16A042609D98800EA68C2 /* Tests iOS */ = {
@@ -323,7 +302,7 @@
 			);
 			name = "Tests iOS";
 			productName = "Tests iOS";
-			productReference = 3CA16A052609D98800EA68C2 /* Tests iOS.xctest */;
+			productReference = 3CA16B272609FC0500EA68C2 /* Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		3CA16A0F2609D98800EA68C2 /* Tests macOS */ = {
@@ -341,7 +320,7 @@
 			);
 			name = "Tests macOS";
 			productName = "Tests macOS";
-			productReference = 3CA16A102609D98800EA68C2 /* Tests macOS.xctest */;
+			productReference = 3CA16B282609FC0500EA68C2 /* Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -378,7 +357,7 @@
 				Base,
 			);
 			mainGroup = 3CA169E82609D98400EA68C2;
-			productRefGroup = 3CA169F62609D98800EA68C2 /* Products */;
+			productRefGroup = 3CA169E82609D98400EA68C2;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -461,7 +440,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CA16A0A2609D98800EA68C2 /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

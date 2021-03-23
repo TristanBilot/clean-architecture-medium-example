@@ -3,16 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
+	<dict/>
+	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>clean-archi-example (iOS).xcscheme_^#shared#^_</key>
+		<key>3CA169F42609D98800EA68C2</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
-		<key>clean-archi-example (macOS).xcscheme_^#shared#^_</key>
+		<key>3CA169FC2609D98800EA68C2</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3CA16A042609D98800EA68C2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3CA16A0F2609D98800EA68C2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
